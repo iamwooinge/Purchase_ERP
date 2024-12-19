@@ -96,23 +96,19 @@
 | 재고       | `stock`            |
 | 초기 재고  | `initialstock`     |
 | MRP        | `mrp`              |
+
 ## 데이터베이스 ERD
-![image](https://github.com/user-attachments/assets/e80f32ee-88b6-4e28-b1a1-1323aabb4ccb)
+![image](https://github.com/user-attachments/assets/9bbde97d-4d68-44aa-be02-a1229694369d)
 
 
-
-![image](https://github.com/user-attachments/assets/0db6d526-9781-48e1-bbca-cd7544afbb23)
-![image](https://github.com/user-attachments/assets/cec10ef3-a8f0-46a5-9381-4b69b27e3813)
-![image](https://github.com/user-attachments/assets/112ed263-10c6-4f39-bf84-901b2dc8acdf)
-![image](https://github.com/user-attachments/assets/37b8f248-0b7b-436b-a764-c2c0d970f179)
-![image](https://github.com/user-attachments/assets/17a12d57-3904-4079-8a9f-025a8ce53b19)
-![image](https://github.com/user-attachments/assets/4a85c8f2-119a-4365-bc90-8df9a9a0c43a)
-![image](https://github.com/user-attachments/assets/a4843718-ee77-471e-a246-7bd10efc7edd)
-![image](https://github.com/user-attachments/assets/0e46464b-b962-422d-abeb-44395717a0e2)
-![image](https://github.com/user-attachments/assets/a0fe19ad-72f3-4e10-90bb-41edc5269a5e)
-![image](https://github.com/user-attachments/assets/372d3db1-167d-4474-984b-c0382f159e52)
-![image](https://github.com/user-attachments/assets/f7f6d00f-fe8e-403a-ae30-d8cd63e5a245)
-![image](https://github.com/user-attachments/assets/b2b5a68e-f333-4caa-8cdd-2f86945f520e)
-
+## 화면
+![image](https://github.com/user-attachments/assets/3f56bb45-79ee-4e66-a729-9304005d6340)
+![image](https://github.com/user-attachments/assets/4db7f18f-3ee4-4613-834b-5caa166753e9)
+![image](https://github.com/user-attachments/assets/c9b41c6c-0752-46be-9e82-73aae4c9192f)
+![image](https://github.com/user-attachments/assets/89aaba68-058b-4d52-838b-770514a71c18)
+![image](https://github.com/user-attachments/assets/fe8e49e1-732b-4e03-8a86-fe64a97714b5)
+![image](https://github.com/user-attachments/assets/c97cde59-14d6-4a87-a3a7-71e045b0bfb7)
+![image](https://github.com/user-attachments/assets/2d5a6ba8-b9c0-42eb-ae17-39bd656a09ec)
+![image](https://github.com/user-attachments/assets/95d84714-afee-41c0-ab44-08e044158b3c)
 
 
