@@ -3,6 +3,17 @@
 김치 제조업체의 구매 및 자재 관리를 위한 효율적인 ERP(Enterprise Resource Planning) 플랫폼으로,</br>
 이 시스템은 재료의 소요량을 계산하고 최적의 구매 계획을 수립하여 기업의 재고 관리와 비용 절감에 기여합니다.</br></br>
 
+**프로젝트 기간**
+- 2021.09 - 2021.12(14주)</br>
+**참여 인원**
+6명</br>
+**기여도**
+17%</br>
+**담당 역할**
+- 발주 등록 페이지 개발
+- 청구 사항 불러오기 페이지 개발
+- 데이터베이스 설계 및 구축, 서버 연동
+
 **🚀 주요 기능**
 **자재 소요량 계산 및 발주**</br>
 - MRP(Material Requirements Planning) 기반의 소요량 계산</br>
@@ -31,3 +42,77 @@
 
 **[기타]**
 - PDF 생성 및 저장 기능 구현
+
+
+
+**[결과물]**
+## ERP 프로세스 설계서
+![image](https://github.com/user-attachments/assets/160beacf-6c1f-416d-9948-00093f90c7ec)
+## 부서 구성 및 역할
+![image](https://github.com/user-attachments/assets/ac116194-4eb0-439a-95bb-75d45e34f04b)
+## 비즈니스 규칙 및 데이터베이스 설계
+
+### 주문번호
+- 형식: 주문 일자(6자) - 품번.순번(4자)
+- 예시: 주문 일자 2021년 9월 9일, 배추, 첫 번째 구매 → `210909-CB01`
+
+---
+
+### 품번
+
+| 이름       | 영어                | 품번 | 이름          | 영어             | 품번 |
+|------------|---------------------|------|---------------|------------------|------|
+| 배추       | cabbage             | CB   | 무            | radish           | RD   |
+| 고춧가루   | red pepper powder   | RP   | 마늘          | garlic           | GA   |
+| 젓갈       | salted seafood      | SF   | 액젓          | fish sauce       | FS   |
+| 소금       | salt                | SA   | 배            | pear             | PE   |
+| 사과       | apple               | AP   | 아이스박스    | ice box          | IB   |
+| 비닐       | vinyl               | VI   | 박스테이프    | box tape         | BT   |
+
+---
+
+### 거래처번호 (사업자 번호)
+
+| 거래처명       | 거래처번호 (사업자번호)  | 제공 품목             |
+|----------------|-------------------------|-----------------------|
+| 싱싱청과       | 415-81-23845           | 배추, 무, 마늘        |
+| 달콤청과       | 301-81-34757           | 사과, 배              |
+| 저염상회       | 227-81-57439           | 소금, 액젓, 젓갈      |
+| 고운 고춧가루  | 415-81-28597           | 고춧가루              |
+| 서대문 포장    | 110-79-19574           | 아이스박스, 비닐, 박스테이프 |
+
+---
+
+### 데이터베이스 테이블
+
+| 이름       | 테이블 이름        |
+|------------|--------------------|
+| 제품       | `product`          |
+| 사원       | `employee`         |
+| 거래처     | `clients`          |
+| 청구       | `claim`            |
+| 발주       | `orders`           |
+| 입고       | `income`           |
+| 재고       | `stock`            |
+| 초기 재고  | `initialstock`     |
+| MRP        | `mrp`              |
+## 데이터베이스 ERD
+![image](https://github.com/user-attachments/assets/e80f32ee-88b6-4e28-b1a1-1323aabb4ccb)
+
+
+
+![image](https://github.com/user-attachments/assets/0db6d526-9781-48e1-bbca-cd7544afbb23)
+![image](https://github.com/user-attachments/assets/cec10ef3-a8f0-46a5-9381-4b69b27e3813)
+![image](https://github.com/user-attachments/assets/112ed263-10c6-4f39-bf84-901b2dc8acdf)
+![image](https://github.com/user-attachments/assets/37b8f248-0b7b-436b-a764-c2c0d970f179)
+![image](https://github.com/user-attachments/assets/17a12d57-3904-4079-8a9f-025a8ce53b19)
+![image](https://github.com/user-attachments/assets/4a85c8f2-119a-4365-bc90-8df9a9a0c43a)
+![image](https://github.com/user-attachments/assets/a4843718-ee77-471e-a246-7bd10efc7edd)
+![image](https://github.com/user-attachments/assets/0e46464b-b962-422d-abeb-44395717a0e2)
+![image](https://github.com/user-attachments/assets/a0fe19ad-72f3-4e10-90bb-41edc5269a5e)
+![image](https://github.com/user-attachments/assets/372d3db1-167d-4474-984b-c0382f159e52)
+![image](https://github.com/user-attachments/assets/f7f6d00f-fe8e-403a-ae30-d8cd63e5a245)
+![image](https://github.com/user-attachments/assets/b2b5a68e-f333-4caa-8cdd-2f86945f520e)
+
+
+
