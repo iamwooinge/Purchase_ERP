@@ -46,9 +46,11 @@
 
 ## 결과물
 ### ERP 프로세스 설계서
-![image](https://github.com/user-attachments/assets/160beacf-6c1f-416d-9948-00093f90c7ec)
-### 부서 구성 및 역할
-![image](https://github.com/user-attachments/assets/ac116194-4eb0-439a-95bb-75d45e34f04b)
+![image](https://github.com/user-attachments/assets/4a3dd1d2-2839-45b5-9cc9-43609084359a)
+
+### ERP 도입 가상 부서 구성 및 역할
+![image](https://github.com/user-attachments/assets/202e3d36-db01-4dd4-85c4-8784e0e113ff)
+
 ### 비즈니스 규칙 및 데이터베이스 설계
 
 ### 주문번호
@@ -97,57 +99,64 @@
 | MRP        | `mrp`              |
 
 ### 데이터베이스 ERD
-![image](https://github.com/user-attachments/assets/9bbde97d-4d68-44aa-be02-a1229694369d)
+![erd](https://github.com/user-attachments/assets/5653645b-2862-4599-a028-3b0fee907637)
 
 
 ### 서비스 화면
 
 #### 메인 화면
 - 자사를 대표하는 식자재를 강조하고 자사에 대한 정보 기재
-![메인](https://github.com/user-attachments/assets/9eaacf6b-5a03-4662-80c2-44484637f724)
+![메인](https://github.com/user-attachments/assets/702151de-e46d-4275-b422-e4c0719ff140)
+
 
 #### 로그인 화면
 - 로그인 실패 시 경고창 기능 구현
-![로그인](https://github.com/user-attachments/assets/87d138e1-afa6-4170-a5d6-77d34b2ebf87)
+![로그인](https://github.com/user-attachments/assets/f526bc40-9f2c-4910-92a7-0ff28386faa0)
+
 
 #### 청구 등록 화면
 - 식품 제작 의뢰가 들어온 후, 발주 부서에 자재를 청구하기 위한 페이지
 - MRP 프로세스를 이용하여 필요량에 따른 소요량 계산
 - 데이터베이스에 등록된 물품을 선택하면 자동으로 지정된 규격/단위 출력
 - 필요량 기재 후 저장할 시 데이터베이스에 등록
-![청구등록](https://github.com/user-attachments/assets/b6e08647-d2ea-4a51-b504-3aa6e7b44830)
+![청구등록](https://github.com/user-attachments/assets/7d2813ba-008f-483e-827f-f10e9265e1ef)
 
 #### 청구 현황 화면
 - 등록된 청구 현황 확인 가능
-![청구현황](https://github.com/user-attachments/assets/cedecd9a-6a2a-4031-952a-db793260604a)
+![청구현황](https://github.com/user-attachments/assets/a35a9651-ae6a-44cb-8af1-f41b0a7f4fb6)
+
 
 #### 발주 등록 화면
 - 청구 부서에서 등록한 데이터를 바탕으로 거래처에 발주하기 위한 페이지
 - 물품마다 면세/과세 및 금액 자동 계산 후 데이터베이스에 등록
 - 거래처에 발송할 발주서 확인 및 저장
-![발주등록](https://github.com/user-attachments/assets/39979767-d15b-427d-9794-6a90757e30a8)
+![발주등록](https://github.com/user-attachments/assets/3853a376-66d1-439b-9f2a-f0cda3ffa42b)
+
 
 #### 발주 현황 화면
 - 등록된 발주 현황 확인 가능
-![발주현황](https://github.com/user-attachments/assets/d563430d-dedc-4444-852b-5faacd18ca6d)
+![발주현황](https://github.com/user-attachments/assets/11fab27b-c517-431a-a200-dd5e64fb2676)
+
 
 #### 입고 등록 화면
 - 발주가 완료되어 자사로 들어온 물품 수량을 관리하는 페이지
 - 입고, 교환/반품과 같이 입고 유형에 따른 물품 처리 가능
-![입고등록](https://github.com/user-attachments/assets/bc20caa7-c3d7-4091-a0f9-b663f58d5976)
+![입고등록](https://github.com/user-attachments/assets/b1f45cf5-69bc-4300-99c7-fa4a7d6755e1)
 
 #### 입고 현황 화면
 - 등록된 입고 현황 및 교환/반품 현황 확인 가능
-![입고현황](https://github.com/user-attachments/assets/473da660-2c20-454b-a895-2009e6170589)
+![입고현황](https://github.com/user-attachments/assets/6e4242b5-f2d9-4e69-9528-80a89f014b0a)
+
 
 #### 초기 재고 등록 화면
 - 초기 재고를 등록하고 확인하는 페이지
-![초기 재고 등록](https://github.com/user-attachments/assets/d955af8d-84e3-498f-92c1-7c940f6d16bb)
+![초기 재고 등록](https://github.com/user-attachments/assets/f1bed37f-0ccc-41ca-8f14-cf9d28c480d0)
 
 #### 재고 현황 화면
 - 입고 페이지에서 입고가 모두 완료되었을 때, 실시간으로 변화된 재고량 확인 가능
-![재고현황](https://github.com/user-attachments/assets/0a982f6e-0df2-488c-b028-0b34b72e3286)
+![재고현황](https://github.com/user-attachments/assets/83ebc8af-4bd8-4476-8594-213d189a1acc)
+
 #### 문서(발주서, 물품 구매 내역서, 물품 구매 신청서)
 - 다른 부서에서 작성된 데이터 불러오기 기능
 - 선택된 데이터 항목을 문서화 및 저장 기능
-![문서](https://github.com/user-attachments/assets/f9a18583-62a4-4779-9910-cd07c6111a80)
+![문서](https://github.com/user-attachments/assets/f40ffcef-9a91-42aa-8479-c199f55c93a3)
