@@ -1,0 +1,272 @@
+
+
+.custom-table{
+   /*   position: relative;  */
+     text-align: center;
+     width:100%;
+     float: left;
+     right:100px;
+     min-width: 1600px;
+     font-size:0.85em;
+     border-collapse: collapse;
+     margin:0; 
+     opacity: 1;
+}
+
+.all_table{
+	min-width: 1600px;
+	position: absolute;
+	 top: 340px;
+     left: 240px; 
+     margin:0; 
+}
+.all_table2{
+	min-width: 1600px;
+	position: absolute;
+	top: 140px;
+     margin:0; 
+}
+
+.bottom_td{
+	padding: 10px;
+}
+
+.custom-table th{
+   background: #eaeaea;
+   color: black;
+
+}
+  #ct_table {
+  width :30%;
+  } 
+  
+ .table_th{
+ width: 5px;
+  opacity: 1;
+ }
+ 
+.loading_btn button{
+  background:#454545;
+  color:#fff;
+  border:none;
+  position:relative;
+ /*  top: 1050px;
+  left: 240px; */
+  width: 175px;
+  height:25px;
+  font-size:0.85em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+ .loading_btn button:hover{
+  background:#8b8b8b;
+}
+
+.loading_btn2 button{
+  background:#454545;
+  color:#fff;
+  border:none;
+  position:relative;
+ /*  top: 1050px;
+  left: 240px; */
+  float:right;
+  width: 90px;
+  height:25px;
+  font-size:0.85em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+ .loading_btn2 button:hover{
+  background:#8b8b8b;
+}
+
+.search_btn_billing button{
+  background:#454545;
+  color:#fff;
+  border:none;
+  position:relative;
+  width: 90px;
+  height:25px;
+  font-size:0.85em;
+  top:12.5px;
+  line-height:25px;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.search_btn_billing button:hover{
+  background:#8b8b8b;
+}
+
+/* 등록 쪽 버튼 */
+.search_btn_billing2 button{
+  background:#454545;
+  color:#fff;
+  border:none;
+  width: 60px;
+  height:25px;
+  font-size:0.85em;
+  line-height:25px;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  text-align: center;
+}
+.search_btn_billing2 button:hover{
+  background:#8b8b8b;
+}
+
+.search_btn_billing3 button{
+  background:#454545;
+  color:#fff;
+  border:none;
+  width: 140px;
+  height:25px;
+  font-size:0.85em;
+  line-height:25px;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  text-align: center;
+}
+.search_btn_billing3 button:hover{
+  background:#8b8b8b;
+}
+
+
+.search_btn_billing button[type="button"]{
+  background:#454545;
+  color:#fff;
+  border:none;
+  position:relative;
+  width: 90px;
+  height:25px;
+  font-size:0.85em;
+  top:12.5px;
+  line-height:25px;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.search_btn_billing button[type="button"]:hover{
+  background:#8b8b8b;
+}
+
+
+/* 검색조건 */
+.search{
+    position: absolute;
+      left: 240px;
+      top: 200px;
+      min-width:1600px;
+      height: 25px;
+      line-height:25px;
+      border: 1px solid #dbd9d9;
+      text-align: center;
+      font-size:0.85em;
+      background:#eaeaea; 
+}
+
+.search2{
+      min-width:1600px;
+      height: 25px;
+      line-height:25px;
+      border: 1px solid #dbd9d9;
+      text-align: center;
+      font-size:0.85em;
+      background:#eaeaea; 
+}
+
+.search2 th{
+   /* background:#eaeaea;  */
+   color: gray;
+}
+
+.search th{
+   /* background:#eaeaea;  */
+   color: gray;
+}
+
+.td_check{
+    background:#eaeaea;
+}
+.search_date{
+   font-size:1em;
+   border:1px solid white;	
+   width: 150px;
+   height: 35px;
+}
+.search_input{
+   font-size:1em;
+   border:1px solid white;	
+   width: 150px;
+   height: 35px;
+}
+
+.add_input{
+   border:1px solid white;	
+   width: 110px;
+   height: 30px;
+}
+
+.search_btn{
+   border-left:none;
+
+}
+
+/* 페이징 */
+.pagination a{
+   color: black;
+   text-decoration: none;
+   width: 500px; /* 12개니까 대충 계산하기 */
+   float: left; /* a는 인라인이라 안먹으니까 추가 */
+   text-align: center;
+   margin:0 auto;
+   cursor:pointer;
+  transition:800ms ease all;
+   
+}
+
+.pagination a:hover:not(.not){ /* .active 클래스를 가진 a태그는 제외시키자 (암기) */
+   background: #ddd;
+}
+.pagination a.active{
+   background: #454545;
+   color:white; 
+}
+
+.pagination {
+   border: 2px solid #ddd;  /*기본적으로 보더는 부모꺼가 잡힌다 */
+   border-right:none;
+   border-left:none;
+   width: 500px; 
+   margin: 0 auto; 
+   /* overflow: auto; */
+   text-align:center;
+  position: relative;
+/*    height: 25px;
+   top: 1050px;
+   left: 785px; */
+	text-decoration: none;
+	margin:0 auto;
+	
+}
+
+
+.add_column {
+    position: absolute;
+      left: 240px;
+      top: 200px;
+      height: 25px;
+      line-height:25px;
+      border: 1px solid #dbd9d9;
+      text-align: center;
+      font-size:0.85em;
+      background:#eaeaea; 
+}

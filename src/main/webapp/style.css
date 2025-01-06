@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+.wrap *{
+	font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+ 
+}
+
+.wrap a{
+	 text-decoration: none;
+}
+.naviMenu{
+    width: 200px;
+    display: block;
+    overflow: hidden;
+}
+.navi{
+    overflow: hidden;
+	border-bottom:1px solid #21aabf;
+}
+.menuBtn{
+    display: block;
+    padding: 15px 20px;
+    background-color: #3689ff;
+    color: #fff;
+    position: relative;
+
+}
+.menuBtn:hover{
+	color:white;
+}
+.subMenu{
+    background: #ddd;
+    overflow: hidden;
+    transition: max-height 0.7s;
+    max-height: 0;
+}
+.subMenu a{
+    display: block;
+    padding: 15px 20px;
+    color: #222;
+    font-size: 14px;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+    
+}
+.subMenu a:after{
+    content: '';
+    opacity: 0;
+    transition: opacity 0.3s;
+
+}
+.subMenu a:hover{
+    background: #fafafa;
+    transition: all 0.3s;
+    border-bottom: 1px solid #c8c8c8;
+}
+.subMenu a:last-child{
+    border:none;
+}
+.navi:target .subMenu{
+    max-height: 10em;
+}
+

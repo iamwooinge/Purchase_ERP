@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+  #top_menu {
+  float :center;
+  width : 1500px;
+  height : 30px;
+  border : 1px solid black;
+  }
+  
+  #category_menu {
+  float :left;
+  width : 10%;
+  height : 900px;
+  border : 1px solid black;
+  }
+  
+  #content {
+  float : right;
+  width : 80%;
+  height : 800px;
+  border : 1px solid black;
+  }
+  
+    #mb_content {
+  width : 80%;
+  height : 800px;
+  border : 1px solid black;
+  }
+
+  #mb_table {
+  width :80%;
+  }
+.menu a{cursor:pointer;}
+    
+ .menu .hide{display:none;}
+ 
+@media print {
+    #receipt_print { display:none; }
+}

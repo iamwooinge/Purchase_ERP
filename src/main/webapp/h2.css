@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#contents{
+  position : relative;
+  top : 10px;
+  left : 75px;
+  }
+
+#content2{
+	position:absolute;
+	left:50%;
+	top:33%;
+	transform:translate(-50%, -50%);
+}
+
+#title{
+  position : absolute;
+  top : 120px;
+  left : 240px;
+  }
+
+#logincontent{
+	position:absolute;
+	left:50%;
+	top:40%;
+	transform:translate(-50%, -50%);
+}
+
+
